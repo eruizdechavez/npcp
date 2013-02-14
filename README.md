@@ -66,7 +66,7 @@ And, when running the above examples using npm...
 ```bash
 $ npm run-script tryme
 
-> npcp@0.1.0 tryme 
+> npcp@0.1.0 tryme
 > node tryme.js
 
 Without npcp... :-(
@@ -84,8 +84,10 @@ config.connections[1] localhost:3002
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](http://gruntjs.com/).
 
 ## Release History
-0.1.0 - Initial release
+- 0.1.0-2 Updating package keywords and README.md release history.
+- 0.1.0-1 Added tryme.js example.
+- 0.1.0 Initial release.
 
 ## License
-Copyright (c) 2013 Erick Ruiz de Chavez  
+Copyright (c) 2013 Erick Ruiz de Chavez
 Licensed under the MIT license.
