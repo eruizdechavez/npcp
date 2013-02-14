@@ -7,6 +7,12 @@ exports['npcp'] = {
     test.expect(1);
 
     var expected = {
+      "port": 3000,
+      "connections": [{
+        "host": "localhost:3001"
+      }, {
+        "host": "localhost:3002"
+      }],
       "first": "1",
       "second": "2",
       "third": [{

@@ -24,7 +24,8 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt nodeunit",
+    "tryme": "node tryme.js"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "0.1.1rc6",
@@ -34,6 +35,12 @@
   },
   "keywords": [],
   "config": {
+   "port": 3000,
+   "connections": [{
+     "host": "localhost:3001"
+   }, {
+     "host": "localhost:3002"
+   }],
    "first": "1",
    "second": "2",
    "third": [{
