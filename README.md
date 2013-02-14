@@ -61,7 +61,8 @@ config.connections.forEach(function(connection, index){
 });
 ```
 
-### Run above examples using npm
+And, when running the above examples using npm...
+
 ```bash
 $ npm run-script tryme
 
