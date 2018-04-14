@@ -1,4 +1,10 @@
-# npcp
+No longer maintained
+====================
+
+Interested? Send me an email to erick@erch.co.
+
+
+## npcp
 An npm package config parser. [![Build Status](https://travis-ci.org/erickrdch/npcp.png?branch=master)](https://travis-ci.org/erickrdch/npcp)
 
 If you use Node.js you already know that ```npm``` is awesome, but I am really sure that you mostly use it only ```npm install``` your dependencies. Turns out that ```npm``` has way more power than that, like creating new modules, bundling them, publishing them and it even allows you to start up your apps, set configuration options on your ```package.json``` and even overwrite your default settins using ```npm config```.
